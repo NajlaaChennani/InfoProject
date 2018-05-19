@@ -1,6 +1,6 @@
 # InfoProject
 
-
+# Backlog du projet consistant à réaliser un outil qui permet de faire la gestion des projets : 
 
 | Id |      User Story      |  Priorité |  Difficulté (Coût) |
 |:--:|:----------------------------------------------------------------------------:|:-:|:-:|
