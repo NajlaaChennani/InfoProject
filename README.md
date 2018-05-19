@@ -11,8 +11,8 @@
 | #5 | En tant que Membre du groupe, je souhaite me renseigner sur le backlog du projet afin de comprendre toutes les UserStory du projet. | 1 | 4 | 
 | #6 | En tant que Chef de projet, je souhaite créer des sprints afin de répartir le projet en un nombre fini de parties.| 9 | 3 | 
 | #7 | En tant que Chef de projet, je souhaite affecter une date limite pour chaque sprint afin de limiter le temps et le gérer correctement.| 6 | 12 | 
-| #8 |En tant que membre du groupe je souhaite accéder au projet afin de pouvoir contribuer à sa réalisation en ayant la possibilité de d'ajouter ou de modifier. | 10 | 3 | 
-| #9 | En tant que Chef du groupe, je peux affecter une Date limite pour chaque tâche. | 8 | 5 | 
+| #8 |En tant que membre du groupe je souhaite accéder au projet afin de pouvoir contribuer à sa réalisation en ayant la possibilité de d'y ajouter des éléments ou de le modifier. | 10 | 3 | 
+| #9 | En tant que Chef du groupe, je souhaite mettre fin au projet. | 8 | 5 | 
 | #10| En tant que Chef du groupe, je peux affecter les taches au chaque membre. | 5 | 7 |
 
 
