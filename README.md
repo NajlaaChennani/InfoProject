@@ -4,11 +4,11 @@
 
 | Id |      User Story      |  Priorité |  Difficulté (Coût) |
 |:--:|:----------------------------------------------------------------------------:|:-:|:-:|
-| #1 | En tant que nouvel utilisateur, je souhaite m'inscrire à la plateforme en insérant mes coordonnées. | 2 | 5 |
-| #2 | En tant qu'utilisateur, je souhaite me connecter à la plateforme afin d'accéder à ses services. | 4 | 6 |
-| #3 | En tant que chef de projet, je voudrais créer un nouveau projet et lui attribuer un nom significatif. | 7 | 3 | 
+| #1 | En tant qu'Utilisateur, je souhaite m'inscrire à la plateforme en insérant mes coordonnées. | 2 | 5 |
+| #2 | En tant qu'Utilisateur, je souhaite me connecter à la plateforme afin d'accéder à ses services. | 4 | 6 |
+| #3 | En tant que Chef de projet, je voudrais créer un nouveau projet et lui attribuer un nom significatif. | 7 | 3 | 
 | #4 | En tant que Chef de projet, je souhaite ajouter les membres qui participeront au développement. | 3 | 2 | 
-| #5 | En tant Visiteur, je peux s’inscrire. | 1 | 4 | 
+| #5 | En tant que , je peux s’inscrire. | 1 | 4 | 
 | #6 | En tant que Membre (du groupe), je peux ajouter des commentaires et aussi importe un fichier. | 9 | 3 | 
 | #7 | En tant que Membre (du groupe), je peux modifier sur le projet. | 6 | 12 | 
 | #8 | En tant que Chef du groupe, je peux supprimer le projet réalise. | 10 | 3 | 
