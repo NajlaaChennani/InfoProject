@@ -16,8 +16,8 @@
 
 | Id |      User Story      |  Priorité |  Difficulté (Coût) |
 |:--:|:----------------------------------------------------------------------------:|:-:|:-:|
-| #1 |  lEn tant qu’Utilisateur, je peux Modifier ou réinitialiser le mot de passe. | 2 | 5 |
-| #2 | En tant que Chef du groupe, je peux Ajouter ou supprimer des utilisateurs de ma chaine. | 4 | 6 |
+| #1 | En tant que nouvel utilisateur, je souhaite m'inscrire à la plateforme en insérant mes coordonnées. | 2 | 5 |
+| #2 | En tant qu'utilisateur, je souhaite me connecter à la plateforme afin d'accéder à ses services. | 4 | 6 |
 | #3 | En tant que Membre (du groupe), je peux consulter la liste des taches réalisés. | 7 | 3 | 
 | #4 | En tant qu’Utilisateur, je peux créer un nouveau projet. | 3 | 2 | 
 | #5 | En tant Visiteur, je peux s’inscrire. | 1 | 4 | 
