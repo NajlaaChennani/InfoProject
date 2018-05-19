@@ -1,7 +1,7 @@
 # InfoProject
 
-| Header 1      |     2 header    |   header 3 |
-| ------------- |: -------------: | ---------: |
-| 1 Online      |        1        |      value |
-| Line 2        |        2        |      value |
-| 3 Online      |        3        |      value |
+| Id            |     User Story    |     Prio      |     Coût     |
+| ------------- |: -------------:   | ---------:    |
+| #1            |En tant qu'utilisateur, je souhaite m'inscrire à la plate          |      value    |
+| Line 2        |        2          |      value    |
+| 3 Online      |        3          |      value    |
