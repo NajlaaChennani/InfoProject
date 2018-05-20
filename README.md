@@ -4,11 +4,11 @@
 
 | Id |      User Story      |  Priorité |  Difficulté (Coût) |
 |:--:|:----------------------------------------------------------------------------:|:-:|:-:|
-| #1 | En tant qu'Utilisateur, je souhaite m'inscrire à la plateforme en insérant mes coordonnées. | 1 | 7 |
-| #2 | En tant qu'Utilisateur, je souhaite me connecter à la plateforme afin d'accéder à ses services. | 1 | 3 |
-| #3 | En tant que Chef de projet, je voudrais créer un nouveau projet et lui attribuer un nom significatif afin de commencer à travailler dessus avec les autres membres. | 4 | 5 | 
-| #4 | En tant que Chef de projet, je souhaite ajouter les membres qui participeront au développement. | 4 | 5 | 
-| #5 | En tant que Membre du groupe, je souhaite me renseigner sur le backlog du projet afin de comprendre toutes les UserStory du projet. | 5 | 3 | 
+| #1 | En tant que développeur, je souhaite m'inscrire à la plateforme en insérant mes coordonnées. | 1 | 7 |
+| #2 | en tant que développeur je souhaite me connecter/déconnecter afin d’utiliser/quitter l’outil. | 1 | 5 |
+| #3 | En tant que développeur, je voudrais créer un nouveau projet et lui attribuer un nom significatif afin de commencer à travailler dessus avec les autres membres. | 1 | 5 | 
+| #4 | En tant que développeur, je souhaite ajouter les membres qui participeront au développement. | 4 | 5 | 
+| #5 | En tant que développeur, je souhaite me renseigner sur le backlog du projet afin de comprendre toutes les UserStory du projet. | 4 | 3 | 
 | #6 | En tant que Chef de projet, je souhaite créer des sprints afin de répartir le projet en un nombre fini de parties.| 6 | 7 | 
 | #7 | En tant que Chef de projet, je souhaite affecter une date limite pour chaque sprint afin de limiter le temps et le gérer correctement.| 7 | 9 | 
 | #8 |En tant que Chef de projet,  je souhaite pouvoir ajouter ou supprimer une tâche dans un sprint afin de corriger ce qu'il faut. | 6 | 7 | 
