@@ -4,7 +4,7 @@
 
 | Id |      User Story      |  Priorité |  Difficulté (Coût) |
 |:--:|:----------------------------------------------------------------------------:|:-:|:-:|
-| #1 | En tant qu'Utilisateur, je souhaite m'inscrire à la plateforme en insérant mes coordonnées. | 1 | 3 |
+| #1 | En tant qu'Utilisateur, je souhaite m'inscrire à la plateforme en insérant mes coordonnées. | 1 | 7 |
 | #2 | En tant qu'Utilisateur, je souhaite me connecter à la plateforme afin d'accéder à ses services. | 1 | 3 |
 | #3 | En tant que Chef de projet, je voudrais créer un nouveau projet et lui attribuer un nom significatif afin de commencer à travailler dessus avec les autres membres. | 4 | 5 | 
 | #4 | En tant que Chef de projet, je souhaite ajouter les membres qui participeront au développement. | 4 | 5 | 
