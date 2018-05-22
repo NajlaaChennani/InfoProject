@@ -1,7 +1,6 @@
 # InfoProject
 
-# Backlog du projet consistant à réaliser un outil qui permet de faire la gestion des projets : 
-
+# SPRINT 2 :
 | Id |      User Story      |  Priorité |  Difficulté (Coût) |
 |:--:|:----------------------------------------------------------------------------:|:-:|:-:|
 | #1 | En tant que développeur, je souhaite ajouter les membres qui participeront au développement. | 4 | 5 | 
