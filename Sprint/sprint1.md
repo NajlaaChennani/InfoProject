@@ -1,6 +1,6 @@
 
 # InfoProject
-# Projet consistant à réaliser un outil qui permet de faire la gestion des projets :
+ Projet consistant à réaliser un outil qui permet de faire la gestion des projets :
 
 # SPRINT 1 : 
 
