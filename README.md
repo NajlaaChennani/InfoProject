@@ -14,8 +14,9 @@
 | #8 | En tant que développeur, je souhaite mettre fin au projet. | 4 | 7 | 
 | #9|En tant que développeur je souhaite ajouter un build a la fin de chaque sprint afin de le finaliser. | 4 | 5 |
 | #10|En tant que développeur je souhaite mettre à jour mon profil pour apporter des améliorations . |  |  |
-| #11|En tant que développeur je souhaite récupérer mon mot de passe si je le perd  . |  |  |
-| #12|En tant que développeur je souhaite inviter d'autres personnes pour intégrer mon projet  . |  |  |
+| #11|En tant que développeur je souhaite récupérer mon mot de passe si je le perds  . |  |  |
+
+
 
 
 
