@@ -1,5 +1,6 @@
 
 # InfoProject
+# projet consistant à réaliser un outil qui permet de faire la gestion des projets :
 
 # SPRINT 1 : 
 
@@ -17,9 +18,3 @@
 
 
 
-
-
-* AIT LBACHIR Ibtissam
-* CHENNANI Najlaa 
-* LACHGAR Zakaria
-* NASSIM Omar
