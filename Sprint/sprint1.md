@@ -1,7 +1,7 @@
 
 # InfoProject
 
-# Backlog du projet consistant à réaliser un outil qui permet de faire la gestion des projets : 
+# SPRINT 1 : 
 
 | Id |      User Story      |  Priorité |  Difficulté (Coût) |
 |:--:|:----------------------------------------------------------------------------:|:-:|:-:|
