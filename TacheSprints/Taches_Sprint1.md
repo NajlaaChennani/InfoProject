@@ -12,7 +12,9 @@
 | #2 | #6 | Développement du code qui gère l'évenement de la connexion | LACHGAR Zakaria |
 | #3 | #7 | Conception du design de l'interface du profil de l'utilisateur | AIT LBACHIR Ibtissam |
 | #3 | #8 | Ajout ou modification des informations de l'utilisateur dans son profil depuis le code qui gère cet évènement | AIT LBACHIR Ibtissam |
-| #4 | #9 | Ajout ou modification des informations de l'utilisateur dans son profil depuis le code qui gère cet évènement | AIT LBACHIR Ibtissam |
+| #4 | #9 | Réalisation de l'interface concernant la réinitialisation du mot de passe | NASSIM Omar |
+| #4 | #10 | Confirmation de l'identité de l'utilisateur | NASSIM Omar |
+| #4 | #11 | Modification du mot de passe de l'utilisateur | NASSIM Omar |
 
 
 
