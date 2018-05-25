@@ -10,6 +10,8 @@
 | #1 | #4 | Développement des différents événements liés à l'inscription | CHENNANI Najlaa |
 | #2 | #5 | Conception du design de la page de la connexion | LACHGAR Zakaria |
 | #2 | #6 | Développement du code qui gère l'évenement de la connexion | LACHGAR Zakaria |
-| #3 | #7 |  | AIT LBACHIR Ibtissam |
+| #3 | #7 | Conception du design du de l'interface du profil de l'utilisateur | AIT LBACHIR Ibtissam |
+| #3 | #8 | Ajout des informations de l'utilisateur dans son profil depuis le code qui gère cet évènement | AIT LBACHIR Ibtissam |
+
 
 
