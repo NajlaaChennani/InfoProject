@@ -13,5 +13,10 @@ namespace ProjetScrum.Controllers
         {
             return View();
         }
+
+        public ActionResult LoginTrait(string nom, string prenom, string email, int age, string qst, string mdp)
+        {
+            return RedirectToAction("Index");
+        }
     }
 }
