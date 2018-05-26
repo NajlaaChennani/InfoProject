@@ -16,6 +16,7 @@
 | #10|En tant que développeur je souhaite ajouter un build a la fin de chaque sprint afin de le finaliser. | 4 | 5 |
 | #11|En tant que développeur je souhaite modifier les priorités des Userstory afin de garantir une bonne planification du projet.| 4 | 5 |
 | #12|En tant que développeur je souhaite apporter des modifications aux différents Sprint déjà créer afin de planifier le projet correctement.| 4 | 5 |
+| #13|En tant que développeur je souhaite apporter des modifications aux Backlog.| 4 | 5 |
 
 
 
