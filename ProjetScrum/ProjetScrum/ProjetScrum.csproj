@@ -152,6 +152,7 @@
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="Controllers\AcceuilController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Controllers\LoginController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -162,16 +163,51 @@
   <ItemGroup>
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
+    <Content Include="css\animate-custom.css" />
+    <Content Include="css\demo.css" />
+    <Content Include="css\fonts\BebasNeue-webfont.svg" />
+    <Content Include="css\fonts\Dharma Type Font License.txt" />
+    <Content Include="css\fonts\fontomas-webfont.svg" />
+    <Content Include="css\fonts\franchise-bold-webfont.svg" />
+    <Content Include="css\style.css" />
+    <Content Include="css\style2.css" />
+    <Content Include="css\style3.css" />
     <Content Include="favicon.ico" />
+    <Content Include="fonts\BebasNeue-webfont.svg" />
+    <Content Include="fonts\Dharma Type Font License.txt" />
+    <Content Include="fonts\fontomas-webfont.svg" />
+    <Content Include="fonts\franchise-bold-webfont.svg" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
     <Content Include="Content\Site.css" />
+    <Content Include="images\bg.jpg" />
+    <Content Include="images\ImageAttribution.txt" />
+    <Content Include="Scripts\animate-custom.css" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
     <Content Include="ApplicationInsights.config">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
+    <Content Include="fonts\BebasNeue-webfont.eot" />
+    <Content Include="fonts\BebasNeue-webfont.ttf" />
+    <Content Include="fonts\BebasNeue-webfont.woff" />
+    <Content Include="fonts\fontomas-webfont.eot" />
+    <Content Include="fonts\fontomas-webfont.ttf" />
+    <Content Include="fonts\fontomas-webfont.woff" />
+    <Content Include="fonts\franchise-bold-webfont.eot" />
+    <Content Include="fonts\franchise-bold-webfont.ttf" />
+    <Content Include="fonts\franchise-bold-webfont.woff" />
+    <Content Include="css\fonts\BebasNeue-webfont.eot" />
+    <Content Include="css\fonts\BebasNeue-webfont.ttf" />
+    <Content Include="css\fonts\BebasNeue-webfont.woff" />
+    <Content Include="css\fonts\fontomas-webfont.eot" />
+    <Content Include="css\fonts\fontomas-webfont.ttf" />
+    <Content Include="css\fonts\fontomas-webfont.woff" />
+    <Content Include="css\fonts\franchise-bold-webfont.eot" />
+    <Content Include="css\fonts\franchise-bold-webfont.ttf" />
+    <Content Include="css\fonts\franchise-bold-webfont.woff" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
+    <Content Include="Scripts\demo.css" />
     <Content Include="Scripts\jquery-1.10.2.js" />
     <Content Include="Scripts\jquery-1.10.2.min.js" />
     <None Include="Scripts\jquery.validate-vsdoc.js" />
@@ -182,6 +218,9 @@
     <Content Include="Scripts\modernizr-2.6.2.js" />
     <Content Include="Scripts\respond.js" />
     <Content Include="Scripts\respond.min.js" />
+    <Content Include="Scripts\style.css" />
+    <Content Include="Scripts\style2.css" />
+    <Content Include="Scripts\style3.css" />
     <Content Include="Web.config" />
     <Content Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
@@ -198,6 +237,7 @@
     <Content Include="Views\Home\Index.cshtml" />
     <Content Include="Views\Acceuil\Create.cshtml" />
     <Content Include="Views\Acceuil\Index.cshtml" />
+    <Content Include="Views\Login\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
