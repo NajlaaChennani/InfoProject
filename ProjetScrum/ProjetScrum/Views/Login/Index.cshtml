@@ -9,7 +9,6 @@
 <head>
     <meta charset="UTF-8" />
     <!-- <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">  -->
-    <title>Login and Registration Form with HTML5 and CSS3</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Login and Registration Form with HTML5 and CSS3" />
     <meta name="keywords" content="html5, css3, form, switch, animation, :target, pseudo-class" />
@@ -32,19 +31,19 @@
                 <a class="hiddenanchor" id="tologin"></a>
                 <div id="wrapper">
                     <div id="login" class="animate form">
-                        <form action="mysuperscript.php" autocomplete="on">
+                        <form action="LoginTrait" autocomplete="on">
                             <h1>Connectez-vous</h1>
                             <p>
                                 <label for="username" class="uname" data-icon="u"> Votre Email </label>
-                                <input id="username" name="username" required="required" type="text" placeholder="myusername or mymail@mail.com" />
+                                <input id="username" name="email" required="required" type="text" placeholder="mymail@mail.com" />
                             </p>
                             <p>
                                 <label for="password" class="youpasswd" data-icon="p"> Votre mot de passe </label>
-                                <input id="password" name="password" required="required" type="password" placeholder="eg. X8df!90EO" />
+                                <input id="password" name="mdp" required="required" type="password" placeholder="eg. X8df!90EO" />
                             </p>
                             <p class="keeplogin">
-                                <input type="checkbox" name="loginkeeping" id="loginkeeping" value="loginkeeping" />
-                                <label for="loginkeeping">Keep me logged in</label>
+                                <input type="checkbox" name="session" id="loginkeeping" value="true" />
+                                <label for="loginkeeping">Garder ma session active</label>
                             </p>
                             <p class="login button">
                                 <input type="submit" value="Login" />
@@ -57,30 +56,30 @@
                     </div>
 
                     <div id="register" class="animate form">
-                        <form action="LoginTrait" autocomplete="on">
+                        <form action="RegisterTrait" autocomplete="on">
                             <h1> Inscrivez-vous </h1>
                             <p>
-                                <label for="usernamesignup" class="uname" data-icon="u">Nom</label>
+                                <label for="usernamesignup" class="uname" data-icon="u">Nom</label><br />
                                 <input id="usernamesignup" name="nom" required="required" type="text" placeholder="mysuperusername690" />
                             </p>
                             <p>
-                                <label for="usernamesignup" class="uname" data-icon="u">Prénom</label>
+                                <label for="usernamesignup" class="uname" data-icon="u">Prénom</label><br />
                                 <input id="usernamesignup" name="prenom" required="required" type="text" placeholder="mysuperusername690" />
                             </p>
                             <p>
-                                <label for="emailsignup" class="youmail" data-icon="e">E-mail</label>
+                                <label for="emailsignup" class="youmail" data-icon="e">E-mail</label><br />
                                 <input id="emailsignup" name="email" required="required" type="email" placeholder="mysupermail@mail.com" />
                             </p>
                             <p>
-                                <label for="passwordsignup" class="youpasswd" data-icon="p">Mot de passe</label>
+                                <label for="passwordsignup" class="youpasswd" data-icon="p">Mot de passe</label><br />
                                 <input id="passwordsignup" name="mdp" required="required" type="password" placeholder="eg. X8df!90EO" />
                             </p>
                             <p>
-                                <label for="passwordsignup" class="youpasswd" data-icon="p">Age</label>
+                                <label for="passwordsignup" class="youpasswd" data-icon="p">Age</label><br />
                                 <input id="passwordsignup" name="age" required="required" type="text" placeholder="eg. X8df!90EO" />
                             </p>
                             <p>
-                                <label for="passwordsignup" class="youpasswd" data-icon="p">Question secrète (Quel est le nom de famille de votre mère)</label>
+                                <label for="passwordsignup" class="youpasswd" data-icon="p">Question secrète (Le nom de famille de votre mère)</label><br />
                                 <input id="passwordsignup" name="qst" required="required" type="text" placeholder="Un nom de famille" />
                             </p>
                             <p class="signin button">
@@ -88,7 +87,7 @@
                             </p>
                             <p class="change_link">
                                 Vous avez déjà un compte ?
-                                <a href="#tologin" class="to_register"> Go and log in </a>
+                                <a href="#tologin" class="to_register" name="login"> Se connecter </a>
                             </p>
                         </form>
                     </div>

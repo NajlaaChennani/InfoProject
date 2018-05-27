@@ -156,8 +156,24 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
-    <Compile Include="Models\Entity.cs" />
-    <Compile Include="Models\user.cs" />
+    <Compile Include="Models\Entity.Context.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Entity.Context.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\Entity.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Entity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\Entity.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Entity.edmx</DependentUpon>
+    </Compile>
+    <Compile Include="Models\User.cs">
+      <DependentUpon>Entity.tt</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -182,6 +198,16 @@
     <Content Include="Content\Site.css" />
     <Content Include="images\bg.jpg" />
     <Content Include="images\ImageAttribution.txt" />
+    <Content Include="Models\Entity.Context.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>Entity.edmx</DependentUpon>
+      <LastGenOutput>Entity.Context.cs</LastGenOutput>
+    </Content>
+    <Content Include="Models\Entity.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>Entity.edmx</DependentUpon>
+      <LastGenOutput>Entity.cs</LastGenOutput>
+    </Content>
     <Content Include="Scripts\animate-custom.css" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
@@ -206,6 +232,13 @@
     <Content Include="css\fonts\franchise-bold-webfont.eot" />
     <Content Include="css\fonts\franchise-bold-webfont.ttf" />
     <Content Include="css\fonts\franchise-bold-webfont.woff" />
+    <EntityDeploy Include="Models\Entity.edmx">
+      <Generator>EntityModelCodeGenerator</Generator>
+      <LastGenOutput>Entity.Designer.cs</LastGenOutput>
+    </EntityDeploy>
+    <Content Include="Models\Entity.edmx.diagram">
+      <DependentUpon>Entity.edmx</DependentUpon>
+    </Content>
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
     <Content Include="Scripts\demo.css" />
     <Content Include="Scripts\jquery-1.10.2.js" />
@@ -254,6 +287,9 @@
   <ItemGroup>
     <None Include="packages.config" />
     <Content Include="Scripts\jquery-1.10.2.min.map" />
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
