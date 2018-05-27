@@ -171,6 +171,7 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>Entity.edmx</DependentUpon>
     </Compile>
+    <Compile Include="Models\ResetPasswordModel.cs" />
     <Compile Include="Models\User.cs">
       <DependentUpon>Entity.tt</DependentUpon>
     </Compile>
@@ -271,6 +272,8 @@
     <Content Include="Views\Acceuil\Create.cshtml" />
     <Content Include="Views\Acceuil\Index.cshtml" />
     <Content Include="Views\Login\Index.cshtml" />
+    <Content Include="Views\Login\ForgotPassword.cshtml" />
+    <Content Include="Views\Login\ResetPassword.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
