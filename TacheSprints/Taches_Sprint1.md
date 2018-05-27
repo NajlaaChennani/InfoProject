@@ -15,9 +15,9 @@
 | #4 | #9 | Réalisation de l'interface concernant la réinitialisation du mot de passe | NASSIM Omar |
 | #4 | #10 | Confirmation de l'identité de l'utilisateur | NASSIM Omar |
 | #4 | #11 | Modification du mot de passe de l'utilisateur | NASSIM Omar |
-| #5 | #12 | Création de la table "Projet" dans la base de données |  |
-| #5 | #13 | Création de l'interface qui permet l'ajout des information concernant le projet |  |
-| #5 | #14 | Développement de code qui permet la gestion de l'ajout d'un nouveau projet |  |
+| #5 | #12 | Création de la table "Projet" dans la base de données | CHENNANI Najlaa |
+| #5 | #13 | Création de l'interface qui permet l'ajout des information concernant le projet | AIT LBACHIR Ibtissam |
+| #5 | #14 | Développement de code qui permet la gestion de l'ajout d'un nouveau projet | LACHGAR Zakaria |
 
 
 
