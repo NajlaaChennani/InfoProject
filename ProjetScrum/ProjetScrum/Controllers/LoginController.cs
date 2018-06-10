@@ -13,17 +13,16 @@ namespace ProjetScrum.Controllers
 {
     public class LoginController : Controller
     {
-        GLDatabaseEntities entity;
+        GLDatabaseEntities entity = new GLDatabaseEntities();
 
         // GET: Login
         public ActionResult Index()
         {
             return View();
         }
-        [HttpGet]
+        [HttpPost]
         public ActionResult RegisterTrait(string nom, string prenom, string email, int age, string qst, string mdp)
         {
-            entity = new GLDatabaseEntities();
             User user = new User();
             user.Nom = nom;
             user.Prenom = prenom;
@@ -35,7 +34,7 @@ namespace ProjetScrum.Controllers
             entity.SaveChanges();
             return RedirectToAction("Index");
         }
-
+   
         [HttpPost]
         public ActionResult LoginTrait(string email, string mdp)
         {
