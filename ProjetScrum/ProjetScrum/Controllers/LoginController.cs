@@ -37,7 +37,7 @@ namespace ProjetScrum.Controllers
         }
 
         [HttpGet]
-        public ActionResult LoginTrait(string email, string mdp, string session)
+        public ActionResult LoginTrait(string email, string mdp)
         {
             entity = new GLDatabaseEntities();
             Boolean bool1 = false;
@@ -45,10 +45,7 @@ namespace ProjetScrum.Controllers
             {
                 if (entity.Users.ToList().ElementAt(i).Email.Equals(email) && entity.Users.ToList().ElementAt(i).Mdp.Equals(mdp))
                 {
-                    if (session.Equals("true"))
-                    {
                         Session["user"] = entity.Users.ToList().ElementAt(i);
-                    }
                     bool1 = true;
                     break;
                 }
