@@ -56,6 +56,12 @@ namespace ProjetScrum.Controllers
                 return RedirectToAction("Index");
             
         }
-       
+
+        public ActionResult ForgotPassword()
+        {
+            return View();
+        }
+
+
     }
 }
