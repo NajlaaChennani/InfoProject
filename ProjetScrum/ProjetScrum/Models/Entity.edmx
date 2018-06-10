@@ -5,59 +5,59 @@
     <!-- SSDL content -->
     <edmx:StorageModels>
     <Schema Namespace="GLDatabaseModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2008" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
-        <EntityType Name="User">
+        <EntityType Name="Developpeur">
           <Key>
             <PropertyRef Name="Id" />
           </Key>
           <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
-          <Property Name="Nom" Type="nchar" MaxLength="10" Nullable="false" />
-          <Property Name="Prenom" Type="nchar" MaxLength="10" Nullable="false" />
-          <Property Name="Age" Type="int" Nullable="false" />
-          <Property Name="Secretquestion" Type="varchar(max)" Nullable="false" />
-          <Property Name="Email" Type="nchar" MaxLength="500" Nullable="false" />
-          <Property Name="Mdp" Type="nchar" MaxLength="500" Nullable="false" />
-          <Property Name="ResetPasswordCode" Type="nvarchar" MaxLength="100" />
+          <Property Name="Nom" Type="varchar" MaxLength="50" />
+          <Property Name="Prenom" Type="varchar" MaxLength="50" />
+          <Property Name="Age" Type="int" />
+          <Property Name="Email" Type="varchar" MaxLength="50" />
+          <Property Name="Mdp" Type="varchar" MaxLength="50" />
+          <Property Name="Secretquestion" Type="varchar" MaxLength="50" />
+          <Property Name="ResetPasswordCode" Type="varchar" MaxLength="50" />
         </EntityType>
         <EntityContainer Name="GLDatabaseModelStoreContainer">
-          <EntitySet Name="User" EntityType="Self.User" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Developpeur" EntityType="Self.Developpeur" Schema="dbo" store:Type="Tables" />
         </EntityContainer>
       </Schema></edmx:StorageModels>
     <!-- CSDL content -->
     <edmx:ConceptualModels>
       <Schema Namespace="GLDatabaseModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
-        <EntityType Name="User">
+        <EntityContainer Name="GLDatabaseEntities" annotation:LazyLoadingEnabled="true">
+          <EntitySet Name="Developpeurs" EntityType="GLDatabaseModel.Developpeur" />
+        </EntityContainer>
+        <EntityType Name="Developpeur">
           <Key>
             <PropertyRef Name="Id" />
           </Key>
           <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
-          <Property Name="Nom" Type="String" MaxLength="10" FixedLength="true" Unicode="true" Nullable="false" />
-          <Property Name="Prenom" Type="String" MaxLength="10" FixedLength="true" Unicode="true" Nullable="false" />
-          <Property Name="Age" Type="Int32" Nullable="false" />
-          <Property Name="Secretquestion" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" Nullable="false" />
-          <Property Name="Email" Type="String" MaxLength="500" FixedLength="true" Unicode="true" Nullable="false" />
-          <Property Name="Mdp" Type="String" MaxLength="500" FixedLength="true" Unicode="true" Nullable="false" />
-          <Property Name="ResetPasswordCode" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+          <Property Name="Nom" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="Prenom" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="Age" Type="Int32" />
+          <Property Name="Email" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="Mdp" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="Secretquestion" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="ResetPasswordCode" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
         </EntityType>
-        <EntityContainer Name="GLDatabaseEntities" annotation:LazyLoadingEnabled="true">
-          <EntitySet Name="Users" EntityType="Self.User" />
-        </EntityContainer>
       </Schema>
     </edmx:ConceptualModels>
     <!-- C-S mapping content -->
     <edmx:Mappings>
       <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
         <EntityContainerMapping StorageEntityContainer="GLDatabaseModelStoreContainer" CdmEntityContainer="GLDatabaseEntities">
-          <EntitySetMapping Name="Users">
-            <EntityTypeMapping TypeName="GLDatabaseModel.User">
-              <MappingFragment StoreEntitySet="User">
+          <EntitySetMapping Name="Developpeurs">
+            <EntityTypeMapping TypeName="GLDatabaseModel.Developpeur">
+              <MappingFragment StoreEntitySet="Developpeur">
                 <ScalarProperty Name="ResetPasswordCode" ColumnName="ResetPasswordCode" />
-                <ScalarProperty Name="Id" ColumnName="Id" />
-                <ScalarProperty Name="Nom" ColumnName="Nom" />
-                <ScalarProperty Name="Prenom" ColumnName="Prenom" />
-                <ScalarProperty Name="Age" ColumnName="Age" />
                 <ScalarProperty Name="Secretquestion" ColumnName="Secretquestion" />
-                <ScalarProperty Name="Email" ColumnName="Email" />
                 <ScalarProperty Name="Mdp" ColumnName="Mdp" />
+                <ScalarProperty Name="Email" ColumnName="Email" />
+                <ScalarProperty Name="Age" ColumnName="Age" />
+                <ScalarProperty Name="Prenom" ColumnName="Prenom" />
+                <ScalarProperty Name="Nom" ColumnName="Nom" />
+                <ScalarProperty Name="Id" ColumnName="Id" />
               </MappingFragment>
             </EntityTypeMapping>
           </EntitySetMapping>

@@ -12,15 +12,15 @@ namespace ProjetScrum.Models
     using System;
     using System.Collections.Generic;
     
-    public partial class User
+    public partial class Developpeur
     {
         public int Id { get; set; }
         public string Nom { get; set; }
         public string Prenom { get; set; }
-        public int Age { get; set; }
-        public string Secretquestion { get; set; }
+        public Nullable<int> Age { get; set; }
         public string Email { get; set; }
         public string Mdp { get; set; }
+        public string Secretquestion { get; set; }
         public string ResetPasswordCode { get; set; }
     }
 }
