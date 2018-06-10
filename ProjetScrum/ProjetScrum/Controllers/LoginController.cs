@@ -36,28 +36,22 @@ namespace ProjetScrum.Controllers
             return RedirectToAction("Index");
         }
 
-        [HttpGet]
+        [HttpPost]
         public ActionResult LoginTrait(string email, string mdp)
         {
             entity = new GLDatabaseEntities();
-            Boolean bool1 = false;
             for (int i = 0; i < entity.Users.ToList().Count; i++)
             {
                 if (entity.Users.ToList().ElementAt(i).Email.Equals(email) && entity.Users.ToList().ElementAt(i).Mdp.Equals(mdp))
                 {
                         Session["user"] = entity.Users.ToList().ElementAt(i);
-                    bool1 = true;
-                    break;
+                    return Redirect(Url.Action("Index", "Acceuil"));
+
                 }
             }
-            if (bool1)
-            {
-                return Redirect(Url.Action("Index", "Acceuil"));
-            }
-            else
-            {
+          
                 return RedirectToAction("Index");
-            }
+            
         }
         [NonAction]
         public void SendVerificationLinkEmail(string emailID, string activationCode, string emailFor = "VerifyAccount")
