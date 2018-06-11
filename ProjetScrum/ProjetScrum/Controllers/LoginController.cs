@@ -62,6 +62,15 @@ namespace ProjetScrum.Controllers
             return View();
         }
 
+        public PartialViewResult GetPasswd(Developpeur dev)
+        {
+            var x = (from c in entity.Developpeurs where c.Email == dev.Email && c.Secretquestion == dev.Secretquestion select c).SingleOrDefault();
+                return PartialView("PasswdPaetiel",x);
+            
+
+        }
+
+
 
     }
 }

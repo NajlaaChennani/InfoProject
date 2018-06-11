@@ -1,0 +1,19 @@
+﻿@model ProjetScrum.Models.Developpeur
+
+<div>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            <span style="color:red"> @Html.DisplayName("Votre mot de passe :")</span>     
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Mdp)
+        </dd>
+
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Back to List", "Index")
+</p>
