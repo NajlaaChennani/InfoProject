@@ -12,14 +12,21 @@ namespace ProjetScrum.Controllers
         // GET: Acceuil
         public ActionResult Index()
         {
-            return View();
+            if (Session["user"] == null)
+            {
+                return RedirectToAction("Index", "Login");
+
+
+            }
+
+            Developpeur cli = (Developpeur)Session["user"];
+         
+                ViewBag.cli = cli;
+
+                return View();
+          
+
         }
-        public ActionResult Create()
-        {
-            
-             
-            return View();
-           
-        }
+       
     }
 }
